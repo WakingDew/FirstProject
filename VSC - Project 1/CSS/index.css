@@ -1,0 +1,46 @@
+ 
+ /* Alternatively, note the tag to change one detail instead of the star signifying 'all'*/
+ *{
+    font-family: 'Piedra', cursive;
+ }
+ 
+ 
+ /* Selector for a tag*/
+  h1 {
+    color:rgb(123, 45, 7);
+    font-size: 48px;
+    }
+
+
+    /* CLasses are higher in priority than traditional tags - periods to identify */
+    .super-cool-class{
+color: #FFFF #000000 #0351F0;
+    }
+
+    /* Selector for id - id is the top of the hierarchy - number to identify */
+    #some-id {
+        Color: blue;
+    }
+
+    /* alternatively, the word: padding can be used alone with 32px and 16px indicating the vertical first, then the horizontal values */
+.border-class {
+    border: 3px dotted blue;
+    padding-left: 75px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    margin-bottom: 72px;
+    width: 50%;
+    display: inline;
+    background: #6120F0
+    height: 100vh;
+}
+
+    .box {
+        border: 8px dashed red;
+        padding-left: 75px;
+        padding-right: 16px;
+        padding-bottom: 16px;
+        padding-top: 16px;
+        text-align: right;
+    }
